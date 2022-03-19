@@ -1,0 +1,153 @@
+:root {
+  --main-color: #757575;
+  --additional-color: #212121;
+  --white-text: #ffffff;
+  --white-translucent-color: rgba(255, 255, 255, 0.6);
+  --focus-color: #2196f3;
+}
+
+body {
+  color: var(--main-color);
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--additional-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.first-part-logo {
+  color: var(--focus-color);
+}
+
+.navigation a {
+  color: var(--additional-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--focus-color);
+}
+
+.navigation .current-tab {
+  color: var(--focus-color);
+}
+
+.contacts a {
+  color: var(--main-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--focus-color);
+}
+
+/* Hero */
+
+.hero h1 {
+  color: var(--white-text);
+  background-color: black;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .button {
+  color: var(--white-text);
+  background-color: var(--focus-color);
+}
+
+.section-title {
+  color: var(--additional-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Features */
+.features .title {
+  color: var(--additional-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Command */
+.command .name {
+  color: var(--additional-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+.portfolio h3 {
+  color: var(--additional-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.command p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+.footer-mail {
+  color: var(--white-translucent-color);
+}
+
+.footer-telephone {
+  color: var(--white-translucent-color);
+}
+
+.filter button {
+  color: var(--additional-color);
+  background: #f5f4fa;
+}
+
+.filter button:hover,
+.filter button:focus {
+  color: var(--white-text);
+  background: var(--focus-color);
+}
