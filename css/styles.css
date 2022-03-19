@@ -21,10 +21,36 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  /* outline: solid 2px tomato; */
+}
+
+.section{
+  padding: 94px 0;
+  outline: solid 2px tomato;
+
+}
+
+.command-background{
+  background-color:  #F5F4FA;
+
+}
+
+
+.zero-top-padding{
+  padding-top: 0;
+}
+
 /* Header */
+
 
 .logo {
   color: var(--additional-color);
@@ -69,23 +95,39 @@ body {
 
 /* Hero */
 
-.hero h1 {
+.hero{
+  text-align: center;
+  background-color: #2F303A  ;
+
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 28px;
   color: var(--white-text);
-  background-color: black;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero .button {
+  display: inline-block;
+  min-width: 200;
+  border-radius: 4px;
+  padding: 10px 32px;
   color: var(--white-text);
   background-color: var(--focus-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--additional-color);
   font-weight: 700;
   font-size: 36px;
@@ -95,12 +137,19 @@ body {
 }
 
 /* Features */
+
 .features .title {
+  margin-top: 0;
+  margin-bottom: 10;
   color: var(--additional-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* Command */
