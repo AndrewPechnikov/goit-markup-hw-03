@@ -117,8 +117,13 @@ body {
 
 /* Hero */
 .hero {
-  width: 1200px;
-  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: #2f303a;
+}
+
+.hero.section {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -207,6 +212,7 @@ body {
 
 .command.list {
   display: flex;
+  background-color: #ffffff;
 }
 
 .command.list img {
@@ -274,6 +280,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .filter button:hover,
@@ -360,6 +367,12 @@ body {
 .footer-telephone {
   display: inline-block;
   color: var(--white-translucent-color);
+  font-style: normal;
+}
+
+.footer-mail:hover,
+.footer-telephone:hover {
+  color: var(--focus-color);
 }
 
 .footer .logo {
