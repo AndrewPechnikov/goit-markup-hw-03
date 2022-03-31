@@ -185,10 +185,12 @@ body {
 
 .features.list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.features > .item:not(:last-child) {
-  margin-right: 30px;
+.features.list > li {
+  width: 270px;
 }
 
 .features .description {
@@ -198,10 +200,8 @@ body {
 /* Services */
 .services.list {
   display: flex;
-}
-
-.services.list > .item:not(:last-child) {
-  margin-right: 30px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .services.list img {
@@ -212,7 +212,8 @@ body {
 
 .command.list {
   display: flex;
-  background-color: #ffffff;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .command.list img {
@@ -246,8 +247,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.command.list > .item:not(:last-child) {
-  margin-right: 30px;
+.command.list > .item {
   padding-bottom: 30px;
 }
 
